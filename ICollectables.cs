@@ -22,5 +22,11 @@ namespace GamePlayDLL
         /// </summary>
         /// <returns>The score value.</returns>
         int GetScoreValue();
+
+        /// <summary>
+        /// Gets the type of the power-up.
+        /// </summary>
+        /// <returns>The PowerUpType of this collectable.</returns>
+        PowerUpType GetPowerUpType();
     }
 }

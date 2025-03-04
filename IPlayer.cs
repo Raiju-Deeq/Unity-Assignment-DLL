@@ -17,5 +17,11 @@ namespace GamePlayDLL
         /// <param name="type">The type of power-up.</param>
         /// <param name="duration">The duration of the power-up effect.</param>
         void ApplyPowerUp(PowerUpType type, float duration);
+
+        /// <summary>
+        /// Applies damage to the player.
+        /// </summary>
+        /// <param name="damage">The amount of damage to apply.</param>
+        void TakeDamage(int damage);
     }
 }

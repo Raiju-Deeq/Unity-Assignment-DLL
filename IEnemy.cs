@@ -16,5 +16,11 @@ namespace GamePlayDLL
         /// </summary>
         /// <param name="player">The player to attack.</param>
         void Attack(IPlayer player);
+
+        /// <summary>
+        /// Gets the score value for defeating this enemy.
+        /// </summary>
+        /// <returns>The score value.</returns>
+        int GetScoreValue();
     }
 }

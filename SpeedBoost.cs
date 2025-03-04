@@ -25,5 +25,11 @@ namespace GamePlayDLL
         /// </summary>
         /// <returns>The score value.</returns>
         public int GetScoreValue() => 10;
+
+        /// <summary>
+        /// Gets the type of this power-up.
+        /// </summary>
+        /// <returns>The PowerUpType of this power-up.</returns>
+        public PowerUpType GetPowerUpType() => PowerUpType.SpeedBoost;
     }
 }

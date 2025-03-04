@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
+
 namespace GamePlayDLL
 {
     /// <summary>
@@ -12,8 +13,8 @@ namespace GamePlayDLL
     /// </summary>
     public class GameManager
     {
-        private ScoreManager scoreManager;
-        private SpawningManager spawningManager;
+        private readonly ScoreManager scoreManager;
+        private readonly SpawningManager spawningManager;
 
         /// <summary>
         /// Initializes a new instance of the GameManager class.
@@ -46,7 +47,7 @@ namespace GamePlayDLL
         public int GetCurrentScore() => scoreManager.GetCurrentScore();
 
         /// <summary>
-        /// Gets a spawn position within the specified bounds.
+        /// Spawns an object within the specified bounds.
         /// </summary>
         /// <param name="prefab">The prefab to spawn.</param>
         /// <param name="minPosition">The minimum position for spawning.</param>

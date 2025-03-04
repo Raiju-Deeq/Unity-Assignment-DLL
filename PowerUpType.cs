@@ -12,6 +12,8 @@ namespace GamePlayDLL
     public enum PowerUpType
     {
         SpeedBoost,
-        Shield
+        Shield,
+        DoublePoints // Add this new type
     }
 }
+

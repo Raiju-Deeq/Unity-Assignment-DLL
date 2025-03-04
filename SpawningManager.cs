@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
+
 namespace GamePlayDLL
 {
     /// <summary>
@@ -27,15 +28,13 @@ namespace GamePlayDLL
                 return null;
             }
 
-            float x = UnityEngine.Random.Range(minPosition.x, maxPosition.x);
-            float y = UnityEngine.Random.Range(minPosition.y, maxPosition.y);
-            float z = UnityEngine.Random.Range(minPosition.z, maxPosition.z);
+            Vector3 spawnPosition = new Vector3(
+                UnityEngine.Random.Range(minPosition.x, maxPosition.x),
+                UnityEngine.Random.Range(minPosition.y, maxPosition.y),
+                UnityEngine.Random.Range(minPosition.z, maxPosition.z)
+            );
 
-            Vector3 spawnPosition = new Vector3(x, y, z);
-
-            GameObject spawnedObject = UnityEngine.Object.Instantiate(prefab, spawnPosition, Quaternion.identity);
-            return spawnedObject;
+            return UnityEngine.Object.Instantiate(prefab, spawnPosition, Quaternion.identity);
         }
     }
-
 }
