@@ -6,30 +6,15 @@ using System.Threading.Tasks;
 
 namespace GamePlayDLL
 {
-    /// <summary>
-    /// Represents a shield power-up.
-    /// </summary>
     public class Shield : ICollectable
     {
-        /// <summary>
-        /// Applies the shield effect to the player.
-        /// </summary>
-        /// <param name="player">The player to apply the effect to.</param>
         public void ApplyEffect(IPlayer player)
         {
             player.ApplyPowerUp(PowerUpType.Shield, 15f);
         }
 
-        /// <summary>
-        /// Gets the score value for collecting this power-up.
-        /// </summary>
-        /// <returns>The score value.</returns>
-        public int GetScoreValue() => 15;
+        public int GetScoreValue() => 0; // No score for collecting
 
-        /// <summary>
-        /// Gets the type of this power-up.
-        /// </summary>
-        /// <returns>The PowerUpType of this power-up.</returns>
         public PowerUpType GetPowerUpType() => PowerUpType.Shield;
     }
 }

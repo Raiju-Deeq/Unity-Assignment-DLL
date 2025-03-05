@@ -23,5 +23,17 @@ namespace GamePlayDLL
         /// </summary>
         /// <param name="damage">The amount of damage to apply.</param>
         void TakeDamage(int damage);
+
+        /// <summary>
+        /// Adds score to the player's total.
+        /// </summary>
+        /// <param name="points">The number of points to add.</param>
+        void AddScore(int points);
+
+        /// <summary>
+        /// Gets the player's current score.
+        /// </summary>
+        /// <returns>The current score.</returns>
+        int GetScore();
     }
 }
