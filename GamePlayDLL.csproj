@@ -50,14 +50,11 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Coin.cs" />
-    <Compile Include="DoublePoints.cs" />
+    <Compile Include="PowerUp.cs" />
     <Compile Include="GameManager.cs" />
     <Compile Include="SpawningManager.cs" />
     <Compile Include="ScoreManager.cs" />
-    <Compile Include="Shield.cs" />
     <Compile Include="PowerUpType.cs" />
-    <Compile Include="SpeedBoost.cs" />
     <Compile Include="ICollectables.cs" />
     <Compile Include="IEnemy.cs" />
     <Compile Include="IPlayer.cs" />
