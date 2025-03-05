@@ -24,7 +24,7 @@ namespace GamePlayDLL
         {
             if (prefab == null)
             {
-                Debug.LogError("Prefab cannot be null!");
+                Debug.LogError("Prefab cannot be null!"); // null check incase I forget to assign prefab
                 return null;
             }
 

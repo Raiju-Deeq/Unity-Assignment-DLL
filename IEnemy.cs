@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace GamePlayDLL
 {
     /// <summary>
-    /// Defines the contract for enemies in the game.
+    /// Defines the interface for enemies in the game.
     /// </summary>
     public interface IEnemy
     {

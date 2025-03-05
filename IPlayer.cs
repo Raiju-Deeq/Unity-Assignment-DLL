@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace GamePlayDLL
 {
     /// <summary>
-    /// Defines the contract for the player in the game.
+    /// Defines the interface for the player in the game.
     /// </summary>
     public interface IPlayer
     {

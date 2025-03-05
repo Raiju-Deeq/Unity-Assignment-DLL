@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace GamePlayDLL
 {
     /// <summary>
-    /// Defines the contract for collectable items in the game.
+    /// Defines the interface for collectable items in the game.
     /// </summary>
     public interface ICollectable
     {
