@@ -50,7 +50,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="PowerUp.cs" />
+    <Compile Include="PowerUpEffect.cs" />
     <Compile Include="GameManager.cs" />
     <Compile Include="SpawningManager.cs" />
     <Compile Include="ScoreManager.cs" />
