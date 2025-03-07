@@ -27,7 +27,7 @@ namespace GamePlayDLL
 
     /// <summary>
     /// Represents a speed boost power-up effect.
-    /// Increases the player's movement speed by 50%.
+    /// Increases the player's movement speed by 50%. Will mess around with numbers later
     /// </summary>
     public class SpeedBoostEffect : PowerUpEffect
     {

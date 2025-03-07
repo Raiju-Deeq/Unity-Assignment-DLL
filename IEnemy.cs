@@ -13,6 +13,7 @@ namespace GamePlayDLL
     {
         /// <summary>
         /// Performs an attack on the player.
+        /// TODO Old build functionality was buggy will comeback to it
         /// </summary>
         /// <param name="player">The player to attack.</param>
         void Attack(IPlayer player);
