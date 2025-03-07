@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 
+// This is my DLL GameManager
 
 namespace GamePlayDLL
 {
@@ -26,17 +27,20 @@ namespace GamePlayDLL
         }
 
         /// <summary>
-        /// Starts the game.
+        /// Starts the game. 
+        /// TODO Currently a debug line will come back to it when I have made the menu screens
         /// </summary>
         public void StartGame() => Debug.Log("Game Started");
 
         /// <summary>
         /// Pauses the game.
+        /// TODO Currently a debug line will come back to it when I have made the menu screens
         /// </summary>
         public void PauseGame() => Debug.Log("Game Paused");
 
         /// <summary>
         /// Ends the game.
+        /// TODO Currently a debug line will come back to it when I have made the menu screens
         /// </summary>
         public void EndGame() => Debug.Log("Game Over");
 
